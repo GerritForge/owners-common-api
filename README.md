@@ -23,7 +23,7 @@ Example:
   git clone --recurse-submodules https://gerrit.googlesource.com/gerrit
   cd gerrit/plugins
   ln -s ../../owners/owners-common-api .
-  ln -sf owners-common-api/external_plugin_deps.bzl .
+  ln -sf owners-common-api/external_plugin_deps.bzl.MODULE.bazel .
   cd ..
   bazel build plugins/owners-common-api
 ```
