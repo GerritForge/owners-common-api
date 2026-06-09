@@ -36,12 +36,5 @@ junit_tests(
     deps = PLUGIN_DEPS + PLUGIN_TEST_DEPS + [
         ":owners-common-api__plugin",
         "@easymock//jar",
-        "@javassist//jar",
-        "@powermock-api-easymock//jar",
-        "@powermock-api-support//jar",
-        "@powermock-core//jar",
-        "@powermock-module-junit4-common//jar",
-        "@powermock-module-junit4//jar",
-        "@powermock-reflect//jar",
     ],
 )
